@@ -6,7 +6,7 @@ A hybrid music recommender that combines collaborative filtering (TruncatedSVD o
 
 1) Create and activate environment
 ```bash
-conda create -n musicrec python=3.10 -y
+conda create -n musicrec python=3.11 -y
 conda activate musicrec
 ```
 
