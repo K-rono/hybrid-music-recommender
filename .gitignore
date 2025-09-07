@@ -1,0 +1,103 @@
+# ----- Python bytecode / caches -----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----- Virtual environments -----
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Environment files (do not commit secrets)
+.env
+.env.*
+
+# ----- Build / packaging -----
+.build/
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+share/python-wheels/
+MANIFEST
+
+# ----- Jupyter / IPython -----
+.ipynb_checkpoints/
+.ipython/
+*.ipynb_checkpoints
+*.ipynb~
+*.nbconvert
+
+# ----- Testing / lint caches -----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ----- Editors / IDEs -----
+.vscode/
+.idea/
+
+# ----- OS files -----
+.DS_Store
+Thumbs.db
+
+# ----- Data & model artifacts -----
+# Raw/derived data (adjust if you want to track some of these)
+*.parquet
+*.feather
+*.csv
+*.tsv
+*.jsonl
+*.xlsx
+*.npz
+*.npy
+*.pkl
+*.joblib
+*.ann
+*.bin
+*.model
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Project-specific artifact directories
+prototype/artifacts/
+
+# ----- Logs & outputs -----
+logs/
+*.log
+pip-log.txt
+
+# Figures and generated reports
+*.png
+*.pdf
+*.svg
+
+# Streamlit / app secrets (never commit secrets)
+.streamlit/secrets.toml
+
+# ----- Misc -----
+# Node (in case of any JS tooling)
+node_modules/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+*.rej
+
