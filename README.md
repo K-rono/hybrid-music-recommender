@@ -33,12 +33,12 @@ This will:
 - Train a small SVD CF model, fuse with content, and serve recommendations with explanations
 
 5) Generating recommendations
-To test, you can either choose a random ID from user_behavior_list.csv or choose a random one provided below
 ```
 17a35e6658c1d128f24ff6b79a8d04f0125cd82f
 09bea918cfe86e003a0b7bf860746e63995f15b0
 ff6b6619a334a4489beb608266e4b9ff5ff86d23
 ```
+To test, you can either choose a random ID from user_behavior_list.csv or choose a random one provided below
 
 ## Project Structure
 - `prototype/`
