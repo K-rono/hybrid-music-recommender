@@ -194,7 +194,7 @@ def main():
     sample_users = st.sidebar.checkbox("Sample users for faster processing", value=True)
     
     # Get data split (cached separately)
-    st.info("📊 Getting data split...")
+    st.info("📊 Getting data split...(Might take a couple minutes)")
     train_df, test_df = get_data_split(behavior_df, sample_users)
     
     with st.expander("🔍 Performance Debug Info", expanded=False):
